@@ -24,7 +24,7 @@ public class LoginTests extends BaseTest {
     }
 
     @Test(dataProvider = "incorrectLoginProvider")
-//    For jenkins
+//    For jenkins 1
        public void testAuthIncorrect(String email, String password, String errorMsgExpected) {
         manager.goTo().home();
         manager.session().loginAs(email, password);
